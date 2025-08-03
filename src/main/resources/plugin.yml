@@ -1,0 +1,17 @@
+name: CloneItem
+version: 1.0
+main: com.cloneitem.CloneItemPlugin
+description: A plugin that allows players to duplicate items with /dupe command
+author: YourName
+commands:
+  dupe:
+    description: Duplicate the item in your hand
+    usage: /dupe
+    permission: cloneitem.allow
+permissions:
+  cloneitem.allow:
+    description: Allows use of the /dupe command
+    default: op
+  cloneitem.allow.cooldown:
+    description: Allows bypassing the cooldown for the /dupe command
+    default: op
